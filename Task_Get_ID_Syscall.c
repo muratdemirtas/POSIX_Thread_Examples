@@ -5,10 +5,10 @@
 * @license GNU General Public License (version 2)
 */
 
-#include "pthread.h"    /**<Called for POSIX Thread Library*/
-#include "stdio.h"      /**<Called for Standart IO(printf) function */
-#include <sys/types.h>
-#include <sys/syscall.h>
+#include "pthread.h"        /**<Called for POSIX Thread Library*/
+#include "stdio.h"          /**<Called for Standart IO(printf) function */
+#include <sys/types.h>      /**<Called for get thread conditions*/ 
+#include <sys/syscall.h>    /**<Called for syscall functions*/
 
 #define MAX_THREAD_SIZE 5  /**<Maximum Thread Size for This Demo Application */
 
